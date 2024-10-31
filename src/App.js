@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div>
-      <div className="h-screen w-screen flex justify-center items-center bg-zinc-800 relative overflow-hidden">
+      <div className="h-screen w-screen flex justify-center items-center bg-zinc-300 relative overflow-hidden">
         <MoneyRain />
 
         {/* Floating Image Animation */}
@@ -33,7 +33,7 @@ function App() {
           transition={{ duration: 2, ease: "easeOut" }} // Smooth transition
         />
 
-        <div className='absolute top-5 left-5 text-zinc-300'>
+        <div className='absolute top-5 left-5 text-zinc-700'>
           <HyperText className="text-3xl md:text-5xl" text="Gud Tech"></HyperText>
           <HyperText className="md:text-xl -mt-2" text="Crypto Supercycle Initiative"></HyperText>
         </div>

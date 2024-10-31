@@ -162,7 +162,7 @@ const TradingSimulator = ({ title, imageSrc, initialPrice }) => {
 
 function Second() {
     return (
-        <div className="min-h-screen flex justify-center items-center bg-zinc-800">
+        <div className="min-h-screen flex justify-center items-center bg-zinc-300">
             <div className="flex justify-center items-center h-full py-[15%] md:py-[5%]">
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 content-center">
                     <TradingSimulator title="TECH" imageSrc="tech.png" initialPrice={0.00012}/>
