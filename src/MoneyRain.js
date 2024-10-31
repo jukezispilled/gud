@@ -32,7 +32,7 @@ const MoneyRain = () => {
           }}
         >
           <img 
-            src="money.gif" 
+            src="money1.gif" 
             alt="money"
             className="w-full h-full object-contain"
           />
